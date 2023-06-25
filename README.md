@@ -48,4 +48,19 @@ https://docs.google.com/presentation/d/1wuJqq507_2Grl-TV7EixyNSHCEqgu8Uu/edit?us
 2. Задача №2*: найти количество уникальных значений поля date_purchase с помощью оператора distinct/ только с помощью функций row_number и rank
 
 Краткое описание решения:
-1. 
+1. Каждой покупке присвоен свой ранг, который показывает, какой по счету является данная покупка в рамках всей таблицы, а также ранг в рамках всех покупок клиента. Построено распределение количества первых покупок клиента по полям is_trial и name_partner. Построена гистограмма («стакнутый барчарт» с распределением количества покупок по полям is_trial и name_partner) и добавлен к графику срез, на котором можно выбрать, на каких по счету покупках в рамках клиента построена гистограмма (только на первых; только на вторых; на всех, кроме первых, и т. д.). Для каждого партнера рассчитан процент клиентов дошел до второй покупки, до третьей покупки и т. д. Выведен полученный результат в Excel и построен график, на котором каждая линия показывает своего партнера
+2. Найдено количество уникальных значений поля date_purchase с помощью оператора distinct и только с помощью функций row_number и rank
+
+ссылка на проект:
+https://metabase.sky.pro/question/66761
+https://metabase.sky.pro/question/66762
+https://metabase.sky.pro/question/66760
+https://metabase.sky.pro/question/66763
+﻿https://metabase.sky.pro/question/66764
+https://docs.google.com/spreadsheets/d/1cZXrrc0nzyhELJ570z8gwApVbKLPZ27q/edit?usp=sharing&ouid=104209888789270815517&rtpof=true&sd=true
+
+https://metabase.sky.pro/question/76809
+https://metabase.sky.pro/question/76811
+https://metabase.sky.pro/question/76812
+
+Выводы (итоги):
